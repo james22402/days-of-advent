@@ -9,10 +9,10 @@ while i < len(content):
     try:
         while j < len(content):
             try:
-                if content[i] + content[j] + content[k] == 2020:
-                    print(str(content[i]) + " " + str(content[j]) + " " + str(content[k]))
-                    print(content[i]*content[j]*content[k])
-                elif content[i] + content[j] + content[k] != 2020:
+                if content[i] + content[j] == 2020:
+                    print(str(content[i]) + " " + str(content[j]))
+                    print(content[i]*content[j])
+                elif content[i] + content[j] != 2020:
                     continue
             finally:
                 j += 1
