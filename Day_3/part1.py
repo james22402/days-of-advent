@@ -1,7 +1,7 @@
 #import math
 with open("trees.txt", "r") as f:
     content = f.readlines()
-map_basis = [x.strip() for x in content]
+content = [x.strip() for x in content]
 ##Right 3 down by 1
 ##y = -1/3x
 height = len(content)
